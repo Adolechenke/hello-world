@@ -7,6 +7,7 @@ function setup() {
 }
 
 function draw() {
+  col.r = map(mouseX, 0, width, 0, 255);
   fill(col.r, col.g, col.b);
-  ellipse(p.x, p.y, 24, 24);
+  ellipse(p.x, 100, 24, 24);
 }
